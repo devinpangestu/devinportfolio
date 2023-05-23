@@ -58,6 +58,7 @@ export {
   heroMeme6,
   heroMeme7,
   heroMeme8,
+  avatar,
   menu,
   close,
   css,
