@@ -1,0 +1,16 @@
+npm create vite@latest ./ -- --template react
+
+npm i -D tailwindcss
+npx tailwindcss init
+
+npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-tilt react-vertical-timeline-component @emailjs/browser framer-motion react-router-dom
+
+npm i --legacy-peer-deps -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+npm install --legacy-peer-deps three
+npm install --legacy-peer-deps react-tilt react react-dom
+### Download 3D Model ###
+https://sketchfab.com/features/free-3d-models
+
+npm install --save styled-components
