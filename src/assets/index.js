@@ -6,6 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import avatar from "./avatarbadge.svg"
 
 import heroMeme1 from "./memes/1.jpg";
 import heroMeme2 from "./memes/2.jpg";
