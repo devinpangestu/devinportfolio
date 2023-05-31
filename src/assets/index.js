@@ -6,7 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import avatar from "./avatarbadge.svg"
+import avatar from "./avatarbadge.svg";
 
 import heroMeme1 from "./memes/1.jpg";
 import heroMeme2 from "./memes/2.jpg";
@@ -42,6 +42,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import comingsoon from "./comingsoon.png";
+import noteapp from "./noteapp.png";
 
 export {
   logo,
@@ -81,6 +82,7 @@ export {
   atmajaya,
   tesla,
   carrent,
+  noteapp,
   jobit,
   tripguide,
   comingsoon,

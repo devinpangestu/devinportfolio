@@ -30,6 +30,7 @@ import {
   tesla,
   shopify,
   carrent,
+  noteapp,
   jobit,
   tripguide,
   threejs,
@@ -44,6 +45,10 @@ export const navLinks = [
   {
     id: "journey",
     title: "Journey",
+  },
+  {
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -208,47 +213,48 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "Coming Soon!",
-    description: "Release Soon!",
-    // tags: [
-    //   {
-    //     name: "react",
-    //     color: "blue-text-gradient",
-    //   },
-    //   {
-    //     name: "mongodb",
-    //     color: "green-text-gradient",
-    //   },
-    //   {
-    //     name: "tailwind",
-    //     color: "pink-text-gradient",
-    //   },
-    // ],
-    image: comingsoon,
-    // source_code_link: "https://github.com/",
-  },
   // {
-  //   name: "Car Rent",
-  //   description:
-  //     "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "mongodb",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwind",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: carrent,
-  //   source_code_link: "https://github.com/",
+  //   name: "Coming Soon!",
+  //   description: "Release Soon!",
+  //   // tags: [
+  //   //   {
+  //   //     name: "react",
+  //   //     color: "blue-text-gradient",
+  //   //   },
+  //   //   {
+  //   //     name: "mongodb",
+  //   //     color: "green-text-gradient",
+  //   //   },
+  //   //   {
+  //   //     name: "tailwind",
+  //   //     color: "pink-text-gradient",
+  //   //   },
+  //   // ],
+  //   image: comingsoon,
+  //   // source_code_link: "https://github.com/",
   // },
+  {
+    name: "Note App",
+    description:
+      "Web-based notes platform for managing digital notes for each user efficiently, offering a  essential features for creating, and editing notes.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: noteapp,
+    link:"https://devin-note-app.netlify.app/",
+    source_code_link: "https://github.com/",
+  },
   // {
   //   name: "Job IT",
   //   description:
