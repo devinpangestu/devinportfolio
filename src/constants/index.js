@@ -1,10 +1,8 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
-  typescript,
   heroMeme1,
   heroMeme2,
   heroMeme3,
@@ -16,25 +14,16 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
-  meta,
-  starbucks,
   gso,
   atmajaya,
-  tesla,
-  shopify,
-  carrent,
   noteapp,
-  jobit,
-  tripguide,
   threejs,
-  comingsoon,
+  bkp,
 } from "../assets";
 
 export const navLinks = [
@@ -93,7 +82,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Full Stack Developer",
     icon: backend,
   },
   // {
@@ -183,6 +172,20 @@ const experiences = [
       "Even though I graduated in semester 9, I believe my skills are not below standard 👻.",
     ],
   },
+  {
+    title: "My first job! here we go!",
+    company_name: "PT. Bina Karya Prima",
+    icon: bkp,
+    iconBg: "#00703c",
+    date: "Aug 2023 - Present",
+    points: [
+      "Working as a System Development and Integration, I am responsible for designing, understanding the business process, developing and maintaining web based application.",
+      "My role involves collaborating with cross-functional teams to design, develop, integrate to other system and deploy web solutions that meet business requirements.",
+      "I am proficient in various web technologies, including JavaScript, Typescript and React frameworks such as NextJS and vite for building the user interface.",
+      "I have experience in RESTful API development using JavaScript, Typescript, Go, and backend development framework such as ExpressJS, and Gin.",
+      "I have using git for version control,collaboration with other developers and integrating with Azure DevOps for automated testing and deployment to production environment.",
+    ],
+  },
 ];
 
 const testimonials = [
@@ -252,7 +255,7 @@ const projects = [
       },
     ],
     image: noteapp,
-    link:"https://devin-note-app.netlify.app/",
+    link: "https://devin-note-app.netlify.app/",
     source_code_link: "https://github.com/",
   },
   // {

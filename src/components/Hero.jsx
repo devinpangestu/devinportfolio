@@ -9,28 +9,26 @@ import { fadeIn, textVariant } from "../utils/motion";
 import { random } from "maath";
 
 const HeroCard = ({ index, image, event }) => (
-  <Tilt className="xs:w-[250px] w-full grid place-items-center">
-    <motion.div
-      variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className="w-full blue-green-gradient p-[1px] rounded-[20px] shadow-card"
+  <motion.div
+    variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+    className="xs:w-[300px] place-items-center w-full blue-green-gradient p-[1px] rounded-[20px] shadow-card"
+  >
+    <div
+      options={{
+        max: 45,
+        scale: 1,
+        speed: 450,
+      }}
+      className="bg-blue-bg rounded-[20px] px-5 min-h-[200px] flex justify-evenly items-center flex-col"
     >
-      <div
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
-        className="bg-blue-bg rounded-[20px] px-5 min-h-[200px] flex justify-evenly items-center flex-col"
-      >
-        <img
-          src={image}
-          alt="heroMeme"
-          className="h-25 w-25 object-contain rounded-[20px]"
-          onClick={event}
-        />
-      </div>
-    </motion.div>
-  </Tilt>
+      <img
+        src={image}
+        alt="heroMeme"
+        className="h-25 w-25 object-contain rounded-[20px]"
+        onClick={event}
+      />
+    </div>
+  </motion.div>
 );
 const Shuffle = (arr) => {
   const randomIndex = Math.floor(Math.random() * arr.length);
@@ -63,17 +61,17 @@ const Hero = () => {
             Hi, I'm <span className="text-[#2c5cf9]">Devin</span>
           </h1>
           <p className={`${styles.heroSubText}mt-2 text-white-100 text-[20px]`}>
-            Step into a realm of endless exploration and boundless imagination.{" "}
+            Let’s build, break, and learn together.
             <br className="sm:block hidden" />
-            Unleash your potential and embark on a transformative journey with
-            me!
+            Join me on a journey of code, creativity, and constant improvement.
           </p>
           <div className="mt-5 flex flex-wrap justify-center">
             {
               <HeroCard
                 key={`project-1`}
-                image={Shuffle(heroMemes).image}
+                image={imageSrc}
                 event={handleClick}
+                className="xs:w-[300px] w-full"
               />
             }
           </div>

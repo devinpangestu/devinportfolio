@@ -37,6 +37,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import gso from "./company/gso.png";
 import atmajaya from "./company/atmajaya.png";
+import bkp from "./company/bkp.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -80,6 +81,7 @@ export {
   starbucks,
   gso,
   atmajaya,
+  bkp,
   tesla,
   carrent,
   noteapp,
