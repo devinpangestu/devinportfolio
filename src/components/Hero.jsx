@@ -38,7 +38,7 @@ const Shuffle = (arr) => {
 };
 
 const Hero = () => {
-  const [imageSrc, setImageSrc] = useState("");
+  const [imageSrc, setImageSrc] = useState(Shuffle(heroMemes).image);
 
   const handleClick = () => {
     // Generate a random number to select a new image
